@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Your Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #232F3E;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        .thank-you {
+            display: none; /* Initially hidden */
+        }
+
+        .thank-you p {
+            font-weight: 700; /* Initially hidden */
+        }
+        .register-link {
+            margin-top: 15px;
+        }
+        .register-link a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- Logo added here -->
+            <div class="nav-logo">
+                <img src="say1.png" alt="Amazon Logo" class="logo">
+            </div>
+
+        
+
+
+    
+  
+  
+    </header>
+    <div class="container">
+       
+        <div id="register-form">
+            <h1>Register</h1>
+            <form onsubmit="return showThankYouMessage(event)">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <div class="register-link">
+                <p>Already have an account? <a href="sig.html">Sign in here</a></p>
+            </div>
+        </div>
+        <div id="thank-you" class="thank-you">
+            <h2>Registered Successfully.</h2>
+            <h2>Thank you for registering! 😊</h2><br>
+            <p>Please <a href="sig.html">sign in</a> to continue.</p>
+        </div>
+    </div>
+    <script>
+        function showThankYouMessage(event) {
+            event.preventDefault(); // Prevent form submission
+            document.getElementById('register-form').style.display = 'none'; // Hide register form
+            document.getElementById('thank-you').style.display = 'block'; // Show thank you message
+            return false; // Prevent form submission
+        }
+    </script>
+
+<div class="foot-panel9">
+    <div class="pages">
+        <a>Conditions of Use & Sale</a>
+        <a>Privacy Notice</a>
+        <a>Interest-Based Ads</a>
+
+    </div>
+
+    <div class="copy9">
+        © 1996-2024, Sayzon.com, Inc. or its affiliates
+    </div>
+</div>
+</footer>
+</body>
+</html>

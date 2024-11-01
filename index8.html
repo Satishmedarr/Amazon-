@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+<link rel="stylesheet" href="script.js">
+<style>
+       
+        
+        .product-detail {
+            display: flex;
+            padding: 20px;
+            background-color: grey;
+            color: white;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-image {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-info {
+            flex: 2;
+            padding: 20px;
+        }
+        .back-button {
+            margin: 20px;
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+</style>
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <!-- Logo added here -->
+        <div class="nav-logo">
+            <img src="say1.png" alt="Amazon Logo" class="logo">
+        </div>
+       
+        
+
+
+        <div class="nav-item">
+
+          <div class="nav-address">
+              <p class="add-first">Deliver to</p>
+
+              <div class="add-icon">
+
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second"><b>India</b><p>
+              </div>
+          </div>
+
+
+         </div>
+
+         <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder=" Search Amazon.in"class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+         </div>
+
+         <div class="nav-item">
+         <div class="nav-signin">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second"> Account & Lists</p>
+         </div>
+         </div>
+
+         <div class="nav-item">
+
+         <div class="nav-return">
+            <p><span>Returns</span></p>
+            <p class="nav-second"> & Orders</p>
+         </div>
+
+         </div>
+
+         <div class="nav-item">
+         <div class="nav-cart">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+        </div>
+        </div>
+
+           
+        <div class="panel">
+            <div class="nav-item1">
+            <div class="panel-all">
+                
+                
+                <i class="fa-solid fa-bars "></i>
+                ALL
+            
+            </div>
+            </div>
+
+            
+            <div class="panel-ops">
+                <div class="nav-item1">
+                <p>Fresh</p></div>
+                <div class="nav-item1">
+                <p>MX Player</p></div>
+                <div class="nav-item1">
+                <p>Sell</p></div>
+                <div class="nav-item1">
+                <p>Today's Deals</p></div>
+                <div class="nav-item1">
+                <p>Best Sellers</p></div>
+                <div class="nav-item1">
+                <p>Electronics</p></div>
+                <div class="nav-item1">
+                <p>Home & Kitchen</p></div>
+                <div class="nav-item1">
+                <p>Car & Motorbike</p></div>
+                <div class="nav-item1">
+                <p>Gift Ideas</p></div>
+                <div class="nav-item1">
+                <p>Custom</p></div>
+            </div>
+            
+            <div class="nav-item1">
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+            </div>
+        
+
+       
+    </header>
+
+    <main>
+        <div class="product-detail">
+            <div class="product-image">
+                <img src="https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/1.png" alt="Essence Mascara Lash Princess">
+            </div>
+            <div class="product-info">
+                <h1>Chicken</h1><br>
+                <u><h3>Specifications :-</h3></u><br>
+                <p><strong>Description:</strong> The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks.</p>
+                <p><strong>Category:</strong> Beauty</p>
+                <p><strong>Price:</strong> $19.99 <span>(5.5% off)</span></p>
+                <p><strong>Rating:</strong> 3.28 / 5</p><br>
+                <p><strong>Stock:</strong> 44</p>
+                <p><strong>Dimensions: width:</strong> 12.42, <strong> height:</strong> 8.63, <strong> depth:</strong> 29.13</p>
+
+                <p><strong>Warranty:</strong> 1 year warranty</p><br>
+                <p><strong>Shipping Info:</strong> Ships in 2 weeks</p>
+                <p><strong>availabilityStatus:</strong> In Stock</p>
+
+                <p><strong>Return Policy:</strong> 30 days return policy</p>
+                <p><strong>MinimumOrderQuantity: </strong> 32</p><br>
+                <u><h3>Reviews :-</h3></u>
+                <ul><ul><strong>Rating: 4</strong></ul>
+                    <div class="rating">
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9734;</span> <!-- Empty Star -->
+                        <span class="star">&#9734;</span> <!-- Empty Star -->
+                    </div>
+                   <li><strong>Very satisfied!</strong></li>
+                    <li><strong>Date:</strong> 2024-05-23T08:56:21.618Z</li>
+                    <li><strong>reviewerName: </strong> Liam Garcia</li>
+                    <li><strong>reviewerEmail</strong> liam.garcia@x.dummyjson.com</li><br>
+
+                    <ul><strong>Rating: 1</strong></ul>
+                    <div class="rating">
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9734;</span> <!-- Filled Star -->
+                        <span class="star">&#9734;</span><!-- Filled Star -->
+                        <span class="star">&#9734;</span> <!-- Empty Star -->
+                        <span class="star">&#9734;</span> <!-- Empty Star -->
+                    </div>
+                    
+                    <li><strong>Very disappointed!</strong></li>
+                    <li><strong>Date:</strong> 2024-05-23T08:56:21.618Z</li>
+                    <li><strong>reviewerName: </strong> Nora Russell</li>
+                    <li><strong>reviewerEmail: </strong> nora.russell@x.dummyjson.com</li><br>
+
+                    <ul><strong>Rating: 5</strong></ul>
+                    <div class="rating">
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9733;</span> <!-- Filled Star -->
+                        <span class="star">&#9733;</span><!-- Filled Star -->
+                        <span class="star">&#9733;</span> <!-- Empty Star -->
+                        <span class="star">&#9733;</span> <!-- Empty Star -->
+                    </div>
+                    
+                    <li><strong>Highly impressed!</strong></li>
+                    <li><strong>Date:</strong> 2024-05-23T08:56:21.618Z</li>
+                    <li><strong>reviewerName: </strong> Elena Baker</li>
+                    <li><strong>reviewerEmail: </strong> elena.baker@x.dummyjson.com</li><br>
+                </ul>
+                
+                
+                <img src="https://assets.dummyjson.com/public/qr-code.png">
+            
+
+                <a href="index.html" class="back-button">Back to Products</a>
+            </div>
+        </div>
+    </main>
+
+</div>
+<footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+
+    <div class="foot-panel2">
+        <ul>
+            <p>Get to Know Us</p>
+            <a>About Sayzon</a>
+            <a>Careers</a>
+            <a>Press Releases</a>
+            <a>Sayzon Science</a>
+
+        </ul>
+     
+        <ul>
+            <p>Connect with Us</p>
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>Instagram</a>
+            
+
+        </ul>
+
+        <ul>
+            <p>Make Money with Us</p>
+            <a>Sell on Sayzon</a>
+<a>Sell under Sayzon Accelerator</a>
+<a>Protect and Build Your Brand</a>
+<a>Sayzon Global Selling</a>
+<a>Supply to Sayzon</a>
+<a>Become an Affiliate</a>
+<a>Fulfilment by Sayzon</a>
+<a>Advertise Your Products</a>
+<a>Sayzon Pay on Merchants</a>
+
+
+        </ul>
+
+        <ul>
+            <p>Let Us Help You</p>
+            <a>Your Account</a>
+<a>Returns Centre</a>
+<a>Recalls and Product Safety Alerts</a>
+<a>100% Purchase Protection</a>
+<a>Sayzon App Download</a>
+<a>Help</a>
+
+
+        </ul>
+    </div>
+
+    <div class="foot-panel3">
+        <div class="logo">
+            <img src="say1.png" alt="Amazon Logo" class="logo">
+        </div>
+    </div>
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Conditions of Use & Sale</a>
+            <a>Privacy Notice</a>
+            <a>Interest-Based Ads</a>
+
+        </div>
+
+        <div class="copy">
+            © 1996-2024, Sayzon.com, Inc. or its affiliates
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>

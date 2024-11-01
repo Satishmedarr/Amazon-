@@ -1,0 +1,343 @@
+/* Global Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box; /* Ensure padding/border are included in element's dimensions */
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 65px; /* Fixed height for the navbar */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 0 5px; /* Horizontal padding for navbar */
+    justify-content: space-evenly;
+}
+
+/* Logo Styling */
+.nav-logo {
+    height: 50px; /* Set the same height as the nav items */
+    border: 2px solid transparent; /* Transparent border initially */
+    display: flex; /* To align the logo properly */
+    align-items: center; /* Center the logo vertically */
+    transition: border 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+    border-radius: 2px;
+}
+
+/* Logo Image Styling */
+.logo {
+    height: 50px; /* Ensure logo fills the height of the navbar */
+    width: 130px; /* Maintain aspect ratio */
+    
+}
+
+/* Navigation Item Styling */
+.nav-item {
+    border: 2px solid transparent; /* Transparent border initially */
+    padding: 10px; /* Padding for space inside the border */
+    height: 50px; /* Fixed height for all items */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    transition: border 0.3s; /* Smooth transition on hover */
+    border-radius: 2px;
+}
+
+/* Hover Effect for Navigation Items */
+.nav-item:hover {
+    border: 2px solid white; /* White border on hover */
+}
+
+/* Hover Effect for Logo */
+.nav-logo:hover {
+    border: 2px solid white; /* White border on hover */
+   
+}
+
+/* BOX - 2  */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* BOX - 3  */
+
+.nav-search{
+    display: flex;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 0.85rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.3rem;
+    border: none;
+
+    
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* BOX - 4  */
+
+span{
+    font-size: 0.85rem;
+}
+
+.nav-secocnd{
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+/* BOX - 5  */
+
+.nav-cart i{
+  font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+/* BOX - 5  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.panel-deals{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* Panel Navigation Item Styling */
+
+.nav-item1 {
+    border: 2px solid transparent; /* Transparent border initially */
+    padding: 5px; /* Padding for space inside the border */
+    height: 30px; /* Fixed height for all items */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    transition: border 0.3s; /* Smooth transition on hover */
+    border-radius: 2px;
+    display: flex;
+}
+
+/* Hover Effect for Panel Navigation Items */
+.nav-item1:hover {
+    border: 2px solid white; /* White border on hover */
+    
+}
+
+.hero-section{
+    background-image: url(Hero.jpg);
+
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    
+
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+
+}
+
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+   
+}
+
+.box-img{
+    height: 270px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+
+.box-content p {
+    color: #007185;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 40px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+  
+}
+
+.pages{
+
+padding-top: 25px;
+}
+.copy{
+    
+    padding-top: 5px;
+}
+
+.rating {
+    display: inline-block; /* Aligns the stars inline */
+}
+
+.star {
+    color: gold; /* Set the star color to gold */
+    font-size: 20px; /* Adjust size as needed */
+    margin-right: 5px; /* Add some space between stars */
+}
+
+
+.foot-panel9{
+    background-color: white;
+    color: black;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+
+              
+
+}
